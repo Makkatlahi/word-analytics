@@ -5,7 +5,7 @@ const twitterNumberEl = document.querySelector(".stat__number--twitter");
 const facebookNumberEl = document.querySelector(".stat__number--facebook");
 const wordsNumberEl = document.querySelector(".stat__number--words");
 
-// Event Listeners
+// Handler Function
 const inputHandler = () => {
   // input validation
   if (textareaEl.value.includes("<script>")) {
