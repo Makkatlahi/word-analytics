@@ -97,6 +97,10 @@ body {
   margin-bottom: 10px;
 }
 
+.stat__number--limit {
+  color: red;
+}
+
 .second-heading,
 .third-heading,
 .fourth-heading,
